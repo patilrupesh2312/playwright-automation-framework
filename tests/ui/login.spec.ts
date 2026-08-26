@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { env } from '../../src/config/env.config';
 import { LoginPage } from '../../src/pages/login.page';
 
-test.describe('Login feature', () => {
+test.describe('Login features', () => {
   test(
     'should allow a valid user to log in',
     { tag: ['@ui', '@login'] },
